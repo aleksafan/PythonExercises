@@ -17,7 +17,6 @@ class Solution:
         
         while matrix and matrix[0]:
             for func in [right, down,left,up]:
-                print(matrix)
                 if matrix and matrix[0]:
                     res += func(matrix)
                 else:
